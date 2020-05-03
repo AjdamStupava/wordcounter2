@@ -47,7 +47,7 @@ def char_counter(subor):
     return pocet_znakov  
     
 def word_counter(subor):
-    pocet_slov = subor.count(" ") + len(subor.split("\n"))
+    pocet_slov = len(subor.split())
     return pocet_slov 
     
 def line_counter(subor):
